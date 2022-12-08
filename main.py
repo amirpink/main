@@ -5,7 +5,7 @@ import requests
 from colorama import Fore
 
 os.system("cls")
-
+os.system("clear")
 
 baner = (Fore.MAGENTA+"""
 
