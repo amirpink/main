@@ -3,32 +3,63 @@ import time
 import os
 import requests
 from colorama import Fore
+import os , sys
+from colorama import Fore
+from random import uniform
 
-os.system("cls")
+
 os.system("clear")
+os.system("cls")
+
+
+p1 = (
+Fore.WHITE+"              c",
+Fore.RESET+"o",
+Fore.CYAN+"d",
+Fore.BLUE+"e",
+Fore.GREEN+"d",
+" ",
+Fore.YELLOW+"b",
+Fore.MAGENTA+"y",
+" ",
+Fore.RED+"a",
+Fore.WHITE+"m",
+Fore.RESET+"i",
+Fore.CYAN+"r",
+Fore.BLUE+"p",
+Fore.GREEN+"i",
+Fore.YELLOW+"n",
+Fore.MAGENTA+"k"
+)
+for x in p1:
+    sys.stdout.write(x)
+    sys.stdout.flush()
+    time.sleep(uniform(0, 0.4))
+time.sleep(1)
+
 
 baner = (Fore.MAGENTA+"""
 
- █████╗ ███╗   ███╗██╗██████╗ 
-██╔══██╗████╗ ████║██║██╔══██╗
-███████║██╔████╔██║██║██████╔╝
-██╔══██║██║╚██╔╝██║██║██╔══██╗
-██║  ██║██║ ╚═╝ ██║██║██║  ██║
-╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═╝
+          █████╗ ███╗   ███╗██╗██████╗ 
+         ██╔══██╗████╗ ████║██║██╔══██╗
+         ███████║██╔████╔██║██║██████╔╝
+         ██╔══██║██║╚██╔╝██║██║██╔══██╗
+         ██║  ██║██║ ╚═╝ ██║██║██║  ██║
+         ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═╝
                               
-██████╗ ██╗███╗   ██╗██╗  ██╗ 
-██╔══██╗██║████╗  ██║██║ ██╔╝ 
-██████╔╝██║██╔██╗ ██║█████╔╝  
-██╔═══╝ ██║██║╚██╗██║██╔═██╗  
-██║     ██║██║ ╚████║██║  ██╗ 
-╚═╝     ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝ 
+         ██████╗ ██╗███╗   ██╗██╗  ██╗ 
+         ██╔══██╗██║████╗  ██║██║ ██╔╝ 
+         ██████╔╝██║██╔██╗ ██║█████╔╝  
+         ██╔═══╝ ██║██║╚██╗██║██╔═██╗  
+         ██║     ██║██║ ╚████║██║  ██╗ 
+         ╚═╝     ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝ 
                               
                        
 """)
 
 print(baner)
 
-number = input(Fore.BLUE+"   Enter your Phone Number" + Fore.RED + " \n     <-(with out 0)->" + Fore.WHITE + "\n        ")
+number = input(Fore.BLUE+"            Enter your Phone Number" + Fore.RED + " \n              <-(with out 0)->" + Fore.WHITE + "\n                 ")
 
 
 
